@@ -4,21 +4,25 @@
 // , A∗B
 // , and A/B
 
-
 #include <iostream>
 using namespace std;
 
 int main() {
-    int A, B;
+    long long A, B;
     char op;
     cin >> A >> op >> B;
-    if (op == '+') {
+
+    if(op=='+'){
         cout << A + B;
-    } else if (op == '-') {
-        cout << A - B;
-    } else if (op == '*') {
-        cout << A * B;
-    } else if (op == '/') {
-        cout << A / B;
     }
+    else if(op=='-'){
+        cout << A-B;
+    }
+    else if(op=='*'){
+        cout << A*B;
+    }
+    else if(op=='/'){
+        cout << A/B;
+    }
+    return 0;
 }
