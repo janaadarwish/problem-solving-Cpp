@@ -53,15 +53,15 @@
 #include <iostream>
 using namespace std;
 int main(){
-    int A , B , C;
+    long long A , B , C;
     char Ch;
     cin >> A >> B >> C >> Ch;
-    int sum= A+B+C;
+    long long sum= A+B+C;
     bool pillar1 = (sum % 3==0) && (sum % 5 !=0);
-    bool pillar2 = ('A' <= Ch <= 'Z') && ((Ch + A) % 2==0);
-    int pyth1= (A*A)+(B*B);
-    int pyth2= (A*A)+(C*C);
-    int pyth3= (C*C)+(B*B);
+    bool pillar2 = (Ch >= 'A' && Ch <= 'Z') && ((Ch + A) % 2 == 0);
+    long long pyth1= (A*A)+(B*B);
+    long long pyth2= (A*A)+(C*C);
+    long long pyth3= (C*C)+(B*B);
     bool pillar3 = ((A*B==C) || (A*C==B) || (B*C==A)) ||
      ((pyth1==(C*C) || (pyth2==(B*B)) || (pyth3==(A*A))));
     if(pillar1==true){

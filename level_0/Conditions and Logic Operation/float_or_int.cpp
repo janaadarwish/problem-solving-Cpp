@@ -16,15 +16,21 @@
 // Output
 // Print the answer required above
 #include <iostream>
+#include <iomanip>
 using namespace std;
-int main(){
+
+int main() {
     double n;
-        cin >> n;
-    int x = int(n);
-    if(x == 0){
-        cout<< "int" << " " << n;
+    cin >> n;
+
+    int x = (int)n;
+
+    if (n == x) {
+        cout << "int " << x;
+    } else {
+        cout << "float " << x << " "
+             << fixed << setprecision(3) << n - x;
     }
-    else{
-        cout<< "float" << " " << x << " " << n-x;
-    }
+
+    return 0;
 }

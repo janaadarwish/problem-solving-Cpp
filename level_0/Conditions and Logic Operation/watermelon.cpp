@@ -12,11 +12,15 @@
 //  is even; otherwise, print "No".
 #include <iostream>
 using namespace std;
-int main(){
-    int x;
-    cin >> x;
-    if((int(x / 1000)) % 2 == 0 )
-       cout << "Yes";
+
+int main() {
+    int w;
+    cin >> w;
+
+    if (w > 2 && w % 2 == 0)
+        cout << "YES";
     else
-       cout << "No";
+        cout << "NO";
+
+    return 0;
 }

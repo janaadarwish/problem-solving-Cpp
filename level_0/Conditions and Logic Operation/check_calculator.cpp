@@ -45,19 +45,19 @@ int main(){
     int diff= A-B;
     if(S=='+'){
         if(C == sum)
-           cout << "yes";
+           cout << "Yes";
         else
            cout << sum;
     }
    else if(S=='*'){
         if(C==product)
-           cout << "yes";
+           cout << "Yes";
         else
            cout << product;
     }
     else if(S=='-'){
         if(C==diff)
-           cout << "yes";
+           cout << "Yes";
         else
            cout << diff;
     }
