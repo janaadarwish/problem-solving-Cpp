@@ -47,15 +47,6 @@ Solutions are organized around the topics and exercises I'm practicing, making i
 3. Implement a solution in C++.
 4. Test different inputs and edge cases.
 5. Review incorrect submissions and improve.
-
-## 👩‍💻 About Me
-
-I'm a third-year Computer Science student at Capital University, specializing in Artificial Intelligence.
-
-Alongside AI, I'm building a strong foundation in programming and algorithms because good engineering starts with the ability to solve problems.
-
-**Current goal:** Strengthen my C++ fundamentals and grow consistently in competitive programming.
-
 ## 🔗 Connect
 
 [GitHub Profile — @janaadarwish](https://github.com/janaadarwish)
