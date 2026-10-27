@@ -36,10 +36,6 @@ I'm documenting my progress from the fundamentals, focusing on understanding the
 - **Compiler:** GCC / G++
 - **Practice:** Programming exercises and ICPC preparation
 
-## 📂 Repository Structure
-
-Solutions are organized around the topics and exercises I'm practicing, making it easier to track progress and revisit previously solved problems.
-
 ## 🧩 My Approach
 
 1. Understand the problem and its constraints.
